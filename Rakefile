@@ -17,7 +17,7 @@ task :tooling do
   puts "GOPATH is #{ENV['GOPATH']}"
   puts "GOROOT is #{ENV['GOROOT']}"
   sh "which -a zip || echo NA"
-  sh "ls -l $HOME/go/bin"
+  # sh "ls -l $HOME/go/bin"
 end
 
 task :noassets do
